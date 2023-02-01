@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.frameworks = ['UIKit', 'CoreImage']
 
   s.resources = "Sources/PixelEditor/Media.xcassets"
-  s.dependency 'PixelEngine', '~> 0.2.2'
+  s.dependency 'https://github.com/FluidGroup/Brightroom/PixelEngine', '~> 0.2.2'
 
   s.dependency 'TransitionPatch', '~> 1.0.0'
 end
